@@ -34,7 +34,7 @@ export default function Index() {
           </View>
           <Text className="text-sm text-gray-100 font-pregular mt-7 text-center">
             Where creativity meets innovation: embark on a journey of limitless
-            exploration with Aora
+            exploration with Aora.
           </Text>
           <CustomButton title="Continue with email" handlePress={() => {router.push('/sign-in')}} containerStyles="w-full mt-7"/>
         </View>

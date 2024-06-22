@@ -28,6 +28,11 @@ export default function RootLayout() {
   return (
     <Stack>
       <Stack.Screen options={{ headerShown: false }} name="index" />
+      <Stack.Screen options={{ headerShown: false }} name="(auth)" />
+      <Stack.Screen options={{ headerShown: false }} name="(tabs)" />
+      {/* <Stack.Screen options={{ headerShown: false }} name="(/search/[query])" /> */}
     </Stack>
   );
 }
+
+// com.wilfredeveloper.aora
